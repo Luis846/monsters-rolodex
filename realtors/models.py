@@ -11,4 +11,3 @@ class Realtor(models.Model):
     hire_date = models.DateTimeField(default=datetime.now, blank=True)
     def __str__(self):
         return self.name
-
